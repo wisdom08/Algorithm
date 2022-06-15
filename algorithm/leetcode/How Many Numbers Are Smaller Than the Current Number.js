@@ -35,4 +35,12 @@ console.log(smallerNumbersThanCurrent_best([8, 1, 2, 2, 3]));
  * _best: leetcode-discuss 탭 참고
  * 주어진 배열을 먼저 작은 숫자부터 큰 숫자 순서로 정렬해서 새로운 배열을 만든다. -> 그 정렬된 새 배열의 인덱스가 나타내는 게 각각 현재값보다 작은 숫자가 몇 개인지를 뜻하게 된다.
  * 저렇게 생각해서 푸는 게 신기하다.
+ *
+ * Array.prototype.sort()
+ * The sort() method sorts the elements of an array in place and returns the sorted array.
+ * The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+ * The time and space complexity of the sort cannot be guaranteed as it depends on the implementation.
+ *
+ * Array.prototype.indexOf()
+ * The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
  */

@@ -1,4 +1,4 @@
-/*
+/**
  * https://school.programmers.co.kr/learn/courses/30/lessons/12947
  * 문제 분석
  * 하샤드수의 정의: 주어진 양의 정수 x의 자릿수의 합으로 x가 나누어져야 한다.
@@ -31,7 +31,7 @@ class Solution03 {
         return x % sum == 0 ? true : false;
     }
 }
-/*
+/**
 * 회고
 * 언어는 자주 안 쓰면 어색해지는 거 같다. 근데 어제보단 자바가 익숙해졌다고 느낀다.
 * 어제보단 빠르게 풀었다.

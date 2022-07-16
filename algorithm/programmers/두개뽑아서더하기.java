@@ -1,4 +1,4 @@
-/*
+/**
  * https://school.programmers.co.kr/learn/courses/30/lessons/68644
  * 문제 분석
  * 정수 배열에서 서로 다른 인덱스에 있는 두 개의 수를 뽑아 더해서 만들 수 있는 모든 수의 배열을 오름차순으로 담아 리턴한다.
@@ -64,7 +64,7 @@ class Solution04 {
         return set.stream().mapToInt(Integer::intValue).toArray();
     }
 }
-/*
+/**
  * 회고
  * 스트림이 익숙하지 않은데 '데이터가 흐르는 통로' 로 일단 이해하자.
  * 그리고 스트림을 잘 활용하면 함수형 프로그래밍도 가능하고 코드도 더 간결하게 만들어줘서 장점이 많아보인다.

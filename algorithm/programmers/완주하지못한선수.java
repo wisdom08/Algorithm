@@ -35,8 +35,6 @@ public class 완주하지못한선수 {
 class Solution {
     public String solution01(String[] participant, String[] completion) {
 
-        String result = "";
-
         Arrays.sort(participant);
         Arrays.sort(completion);
 
@@ -46,9 +44,7 @@ class Solution {
             }
         }
 
-        result = participant[completion.length];
-
-        return result;
+        return participant[completion.length];
     }
 
     public String solution02(String[] participant, String[] completion) {

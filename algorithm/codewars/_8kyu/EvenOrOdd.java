@@ -1,4 +1,4 @@
-package codewars._6kyu;
+package codewars._8kyu;
 
 public class EvenOrOdd {
     public static String even_or_odd(int number) {

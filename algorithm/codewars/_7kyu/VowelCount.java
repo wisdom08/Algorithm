@@ -1,4 +1,4 @@
-package codewars._6kyu;
+package codewars._7kyu;
 
 public class VowelCount {
 

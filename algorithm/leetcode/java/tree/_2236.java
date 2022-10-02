@@ -1,7 +1,5 @@
 package leetcode.java.tree;
 
-import javax.swing.tree.TreeNode;
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -17,11 +15,11 @@ import javax.swing.tree.TreeNode;
  *     }
  * }
  */
-class Solution_2236 {
-    public boolean checkTree(TreeNode root) {
-        return root.val == root.left.val + root.right.val;
-    }
-}
+//class Solution_2236 {
+//    public boolean checkTree(TreeNode root) {
+//        return root.val == root.left.val + root.right.val;
+//    }
+//}
 
 /*
 * https://leetcode.com/problems/root-equals-sum-of-children/submissions/

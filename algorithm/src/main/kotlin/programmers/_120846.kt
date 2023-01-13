@@ -1,4 +1,4 @@
-package practice.programmers
+package programmers
 
 class _120846 {
     fun div(n: Int): Int {

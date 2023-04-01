@@ -25,4 +25,7 @@ public class _2744 {
 
 /*
 * https://www.acmicpc.net/problem/2744
+* 배운 점
+* 아스키코드를 이용한 대소문자 변환
+* - base(소문자라면 ‘a’, 대문자라면 ‘A’)로부터 몇 번째 알파벳(idx)인지를 찾아서 더한다.
 * */
